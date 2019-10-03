@@ -55,6 +55,12 @@
 			<artifactId>sonar-maven-plugin</artifactId>
 			<version>3.6.0.1398</version>
 		</dependency>
+		<distributionManagement>
+		<snapshotRepository>
+                <id>nexus</id>
+               <url>http://13.127.14.67:8081/nexus/content/repositories/snapshots/</url>​
+            </snapshotRepository>
+                </distributionManagement>
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
